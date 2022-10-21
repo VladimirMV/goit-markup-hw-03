@@ -1,0 +1,180 @@
+/* Цвета страницы */
+/*Цвет основного текста #212121 -/* 
+/* Второстепенный #757575 */
+/* Белый #FFFFFF */
+/* Черный #000000 */
+/* Синий #2196F3 */
+:root{
+    --header-text-color:#212121;
+    --paragraf-text-color:#757575;
+    --accent-color:#2196F3;
+    --primery-background-color:#FFFFFF;
+}
+body {
+    color: var(--header-text-color);
+    background-color: var(--primery-background-color);
+    font-family:Roboto,sans-serif;
+    
+}
+a{
+        text-decoration: none;
+    }
+.logo{font-family:'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;}
+  
+.logo1{color: var(--accent-color);}
+
+.logoblack{color:#000000 ;}
+.logow{color: #FFFFFF;}
+
+.list {
+    list-style: none;
+}
+/* Навигация */
+.site-nav .link{
+color: var(--header-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+color: var(--accent-color);
+}
+.site-nav .link.carrent {
+color: var(--accent-color);   
+}  
+/* контакты */ 
+.contacts{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+ .contacts .link {
+    color: var(--paragraf-text-color);
+ }
+.contacts .link:hover,
+.contacts .link:focus
+{
+    color: var(--accent-color);
+}    
+.adress-footer{
+    font-family:Roboto,sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+.adress-footer:hover,
+.adress-footer:focus
+{
+    color: var(--accent-color);    
+}
+.ad-color{color: #FFFFFF;}
+.ad-color:hover,
+.ad-color:focus{
+    color: var(--accent-color);
+}
+.hiro{
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background-color: #2F303A;  
+}
+/* герой */
+.hiro-title{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36x;
+     text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color:#FFFFFF;
+}
+.button-hiro{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: var(--accent-color);
+    color:#FFFFFF;
+}
+
+.section-title{
+    color: var(--header-text-color);
+    font-size: 36px;
+    line-height: 1.67x;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+}
+
+.benefits-list .title{
+color: var(--header-text-color);
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+}
+.benefits-list .text{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--paragraf-text-color);
+}
+
+/* Фильтр работ */
+.filter .button{
+    color: var(--header-text-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+.filter .button:hover,
+.filter .button:focus{
+    background-color: #2196F3;
+    color: #FFFFFF;   
+}
+.footer{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background-color:#2F303A;
+   }
+/* вторая страница*/
+.works{
+    text-decoration: none;
+}
+.works .h{
+    color: var(--header-text-color);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em; 
+    text-decoration: none; 
+}
+.works .page{
+color: var(--paragraf-text-color);
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+text-decoration: none;
+}
