@@ -10,22 +10,24 @@
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-  <header>
+  <header class="page-header"> 
+    <div class="conteiner main-nav">
 <!-- Logo-->
     <a class="logo" href="/"> 
        <span class="logo1">Web</span><span class="logoblack">Studio</span> 
     </a>
     <nav>
     <ul class="site-nav list ">
-      <li> <a href="./index.html" class="link carrent">Студія</a></li>
-      <li> <a href="./partfolio.html" class="link">Портфоліо</a></li>
-      <li> <a href="" class="link">Контакти</a></li>
+      <li class="item"> <a href="./index.html" class="link carrent">Студія</a></li>
+      <li class="item"> <a href="./partfolio.html" class="link">Портфоліо</a></li>
+      <li class="item"> <a href="" class="link">Контакти</a></li>
     </ul>
   </nav >
     <ul class="contacts list">
-      <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-      <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>        
+      <li class="item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+      <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>        
     </ul>
+    </div>
   </header>
   <main>
        <section class="hiro">     
@@ -36,7 +38,8 @@
       </section>
       <!-- company benefits-->
       <section class="section">
-        <h2 hidden class="section-title"> company benefits</h2>
+        <div class="conteiner">
+       <h2 hidden class="section-title"> company benefits</h2>
         <ul class="benefits-list list"  >
           <li> 
             <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -55,18 +58,22 @@
             <p class="text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
           </li>
         </ul>
+        </div>
       </section>
-      <!-- Чим ми займаємося-->
+            <!-- Чим ми займаємося-->
       <section class="section">
+        <div class="conteiner">
         <h2 class="section-title">Чим ми займаємося</h2>
         <ul class="bisnes list">
           <li>  <img src="./img/img1.jpg" alt="Разработка" width="370">  </li>
           <li>  <img src="./img/img2.jpg" alt="Мобильные приложения" width="370">  </li>
           <li>  <img src="./img/img3.jpg" alt="Дезайн" width="370">  </li>
         </ul>
+        </div>
       </section>
       <!-- Наша команда-->
-      <section class="section">
+      <section class="section tim">
+        <div class="conteiner ">
         <h2 class="section-title">Наша команда</h2>
         <ul class="command list">
           <li> 
@@ -90,6 +97,7 @@
             <p>UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
   </main>
   <!--footer-->
