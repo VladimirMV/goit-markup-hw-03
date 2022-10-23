@@ -36,13 +36,12 @@ p{  margin-top: 0;
 .conteiner{
     margin-left: auto;
     margin-right: auto;
-    width: 1200px;
+    width: 1170px;
     outline: 2px solid tomato ;
 }
 .main-nav{
     display: flex;
     align-items: center;
-    justify-content:;
 }
 .logo{font-family:'Raleway',sans-serif;
     font-style: normal;
@@ -188,6 +187,13 @@ background-color: #F5F4FA;
     letter-spacing: 0.03em;
 }
 
+
+.benefits-list{
+    display: flex;
+}
+.benefits-list .item:not(:last-child) {
+    margin-right: 30px;
+}
 .benefits-list .title{
     margin-top: 0;
     margin-bottom: 0px;
@@ -203,15 +209,43 @@ letter-spacing: 0.03em;
     letter-spacing: 0.03em;
     color: var(--paragraf-text-color);
 }
+/* Чем мы занимаемся*/
+.bisnes{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+.bisnes .item:not(:last-child) {
+    margin-right: 8px;
+}
+/* Наша команда*/
+.command {
+    display: flex;
+    align-items: center;
+   }
+.command .item {
+    margin-right: 30px;
+}
+.works .item:not(:last-child) {
+    margin-right: 30px;
+}
 
 /* Фильтр работ */
-.filter{display: flex;}
+.filter{display: flex;
+    align-items: center;
+justify-content: center;}
+.filter .item{
+align-items: center;
+}
+.filter .item:not(:last-child) {
+    margin-right: 8px;
+}
 .filter .button{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     padding: 6px 25px;
     text-align: center;
-    border: 1px solid trasparent;
+    border: 1px solid transparent;
     color: var(--header-text-color);
     font-weight: 700;
     font-size: 16px;
@@ -238,6 +272,17 @@ letter-spacing: 0.03em;
 /* вторая страница*/
 .works{
     text-decoration: none;
+}
+.works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: calc((100%-90px)/3);
+}
+
+
+.works .item:nth-child(3n) {
+    margin-right: 0;
 }
 .works .h{
     padding-top: 20px;
