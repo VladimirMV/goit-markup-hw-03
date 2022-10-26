@@ -10,12 +10,6 @@
     --accent-color:#2196F3;
     --primery-background-color:#FFFFFF;
 }
-body {
-    color: var(--header-text-color);
-    background-color: var(--primery-background-color);
-    font-family:Roboto,sans-serif;
-    
-}
 html{box-sizing: border-box;}
 *,
 *::before,
@@ -36,7 +30,12 @@ img {
     display: block;
     max-width: 100%;
 }
+body {
+    color: var(--header-text-color);
+    background-color: var(--primery-background-color);
+    font-family: Roboto, sans-serif;
 
+}
     /* Page header */
 .page-header{
     color:#FFFFFF;
@@ -149,7 +148,7 @@ color: var(--accent-color);
 /*  секция герой */
 .hiro{
     margin-top: 0;
-    margin-bottom: 96px;
+    margin-bottom: 94px;
     text-align: center;
     padding-top: 200px ;
     padding-bottom: 200px;
@@ -191,7 +190,7 @@ color: var(--accent-color);
 }
 .section{
    margin-top: 0;
-   margin-bottom:  96px;
+   padding-bottom:   94px;
    background-color: #FFFFFF;
 }
 
@@ -275,8 +274,8 @@ color: var(--accent-color);
 .filter{display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 96px;
-    margin-bottom: 56px;}
+    padding-top:  96px;
+    padding-bottom:  56px;}
 .filter .item{
     align-items: center;
 }
@@ -322,13 +321,12 @@ color: var(--accent-color);
     flex-wrap: wrap;
     justify-content: space-between;
     text-decoration: none;
-    margin-bottom: 64px;
 }
-
 
 .works .item:nth-child(3n) {
     margin-right: 0;
 }
+
 .works .h{
     padding-top: 20px;
     padding-bottom: 4px;
@@ -358,5 +356,6 @@ color: var(--accent-color);
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
 }
-/*.works .item:not(:last-child) {
-    margin-right: 30px; */
+.works .item:nth-child(n+7) 
+{
+    margin-bottom:  0; }
