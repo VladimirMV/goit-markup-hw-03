@@ -278,7 +278,7 @@ padding-top: 96px;}
 .filter {display: flex;
         align-items: center;
         justify-content: center;
-        padding-bottom:  56px;}
+        margin-bottom:   56px;}
         
 .filter .item {
     align-items: center;
